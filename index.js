@@ -12,6 +12,7 @@ const db = new pg.Client({
   database: "secret_bwk3",
   password: "sFAFGMMY85E5xh2aCYzVifkXNYlxAzoqP",
   port: 5432,
+  ssl: true
 });
 db.connect();
 
