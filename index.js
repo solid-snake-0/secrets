@@ -7,10 +7,10 @@ const app = express();
 const port = 3000;
 
 const db = new pg.Client({
-  user: "postgres",
-  host: "localhost",
-  database: "secret",
-  password: "password",
+  user: "secret_bwk3_user",
+  host: "oregon-postgres.render.com",
+  database: "secret_bwk3",
+  password: "sFAFGMMY85E5xh2aCYzVifkXNYlxAzoqP",
   port: 5432,
 });
 db.connect();
