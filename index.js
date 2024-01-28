@@ -65,7 +65,7 @@ app.post("/login", async (req, res) => {
     ]);
     if (result.rows.length > 0) {
       const user = result.rows[0];
-      if (bcrypt.compare(password, user.password)) {
+      if (await bcrypt.compare(password, user.password)) {
         res.render("secrets.ejs");
       } else {
         res.send("Incorrect Password");
