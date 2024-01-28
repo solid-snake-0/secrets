@@ -10,7 +10,7 @@ const db = new pg.Client({
   user: "secret_bwk3_user",
   host: "oregon-postgres.render.com",
   database: "secret_bwk3",
-  password: "sFAFGMMY85E5xh2aCYzVifkXNYlxAzoqP",
+  password: "FAFGMMY85E5xh2aCYzVifkXNYlxAzoqP",
   port: 5432,
   ssl: true
 });
